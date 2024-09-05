@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  csvserver:
+    image: infracloudio/csvserver:latest
+    ports:
+      - "9300:9300"
+    volumes:
+      - /csvserver/inputFile:/csvserver/inputdata
+    environment:
+      - CSVSERVER_BORDER=Orange
+    restart: always
