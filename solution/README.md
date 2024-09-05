@@ -38,13 +38,17 @@ docker inspect <container_id>
 9. Now run the docker command with environment variable and port mapping. <br>
 
 docker run -v /csvserver/inputFile:/csvserver/inputdata -p 9393:9300 -e CSVSERVER_BORDER=Orange -d infracloudio/csvserver:latest
-![docker-part1-output](https://github.com/lalith2211/csvserver-app/blob/main/images/vm-initial.png/images/part1-op.png)
+![part1-op](https://github.com/user-attachments/assets/c8d60f59-ddad-418d-a00d-364ae97efcb5)
+
 
 10. Accessing the VM with public IP for output screen
-![chrome-part1-output](https://github.com/lalith2211/csvserver-app/blob/main/images/vm-initial.png/images/chrome-out.png)
+![chrome-out](https://github.com/user-attachments/assets/a1113eb5-de34-4ad7-ac13-6e70f32b859a)
+
 
 11. curl -o ./part-1-output http://localhost:9393/raw - *file attached* <br>
-![docker-part1-output](https://github.com/lalith2211/csvserver-app/blob/main/images/vm-initial.png/images/part1-op-1.png)
+![part1-op-1](https://github.com/user-attachments/assets/ed56d121-71aa-4237-803a-073ca4a8ca80)
+
 
 12. curl -o docker logs [container_id] >& part-1-logs - *file attached* <br>
-![docker-part1-output](https://github.com/lalith2211/csvserver-app/blob/main/images/vm-initial.png/images/part1-op-2.png)
+![part1-op-2](https://github.com/user-attachments/assets/bd086e05-2f5e-496d-a584-2120110c4142)
+
