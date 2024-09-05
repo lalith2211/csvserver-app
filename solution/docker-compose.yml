@@ -10,3 +10,12 @@ services:
     environment:
       - CSVSERVER_BORDER=Orange
     restart: always
+
+  prometheus:
+    image: prom/prometheus:v2.45.2
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+    restart: always
+
