@@ -41,7 +41,7 @@ docker run -v /csvserver/inputFile:/csvserver/inputdata -p 9393:9300 -e CSVSERVE
 ![part1-op](https://github.com/user-attachments/assets/c8d60f59-ddad-418d-a00d-364ae97efcb5)
 
 
-10. Accessing the VM with public IP for output screen
+10. Accessing the VM with public IP for output screen <br>
 ![chrome-out](https://github.com/user-attachments/assets/a1113eb5-de34-4ad7-ac13-6e70f32b859a)
 
 
