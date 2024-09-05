@@ -63,6 +63,14 @@ docker run -v /csvserver/inputFile:/csvserver/inputdata -p 9393:9300 -e CSVSERVE
 
 ## set - 3
 
+adding 7 values to inputFile
+<br>
+![image](https://github.com/user-attachments/assets/a8cb0853-8d47-4c09-94d2-bc1c41e45473)
+
+
+prometheus screenshot:
+<br>
+![image](https://github.com/user-attachments/assets/c5c553ca-49e7-42e4-8cd9-98f3483ac3f6)
 
 
 
