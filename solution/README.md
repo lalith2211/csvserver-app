@@ -58,6 +58,12 @@ docker run -v /csvserver/inputFile:/csvserver/inputdata -p 9393:9300 -e CSVSERVE
 1. clearing the existing docker containers
 ![image](https://github.com/user-attachments/assets/0c8d1a9b-94f1-409c-90d5-21452f58a3a2)
 
+2. docker compose file is added. Output: <br>
+![image](https://github.com/user-attachments/assets/3e126691-4095-4cb6-be4a-168f436a14de)
+
+## set - 3
+
+
 
 
 
