@@ -52,4 +52,12 @@ docker run -v /csvserver/inputFile:/csvserver/inputdata -p 9393:9300 -e CSVSERVE
 
 12. curl -o docker logs [container_id] >& part-1-logs - *file attached* <br>
 ![part1-op-2](https://github.com/user-attachments/assets/bd086e05-2f5e-496d-a584-2120110c4142)
+<br><br>
+## set - 2
+
+1. clearing the existing docker containers
+![image](https://github.com/user-attachments/assets/0c8d1a9b-94f1-409c-90d5-21452f58a3a2)
+
+
+
 
