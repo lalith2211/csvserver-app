@@ -1,5 +1,6 @@
 # The csvserver assignment
 
+## Set - 1
 1. created a VM in AWS using Amazon linux Image:
 ![vm-initial](https://github.com/user-attachments/assets/eab8f272-6649-4b20-8992-3d27a5ffb4c2)
 
