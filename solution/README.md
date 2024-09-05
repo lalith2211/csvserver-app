@@ -1,7 +1,7 @@
 # The csvserver assignment
 
 1. created a VM in AWS using Amazon linux Image:
-![image of initial screen](https://github.com/lalith2211/csvserver-app/blob/main/images/vm-initial.png)
+![image of initial screen](https://raw.githubusercontent.com/lalith2211/csvserver-app/blob/main/images/vm-initial.png)
 
 
 2. installing docker using yum commands and starting the docker service. <br>
